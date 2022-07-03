@@ -101,7 +101,7 @@ h3.cor{
 #botao{
     background-color: #09AD3D;
     text-decoration: none;
-    color: #FA403E;
+    color: white;
     padding: 20px 20px;
     font-size: 30px;
     font-family: "M";
@@ -526,7 +526,7 @@ p{
     #botao{
         background-color: #09AD3D;
         text-decoration: none;
-        color: #FA403E;
+        color: white;
         padding: 13.3px;
         font-size: 20px;
         font-family: "M";
