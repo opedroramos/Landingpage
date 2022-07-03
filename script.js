@@ -24,7 +24,7 @@ setTimeout(
         elemento10.style.display = "flex";
         elemento11.style.display = "flex";
         elemento12.style.display = "flex";
-    }, /*tempo em milisegundos*/ 1)
+    }, /*tempo em milisegundos*/ 100)
 /*var altura = window.screen.height
 console.log(altura)
 var largura = window.screen.width
