@@ -24,7 +24,7 @@
         elemento10.style.display = "flex";
         elemento11.style.display = "flex";
         elemento12.style.display = "flex";
-    }, /*tempo em milisegundos*/ 333000)
+    }, /*tempo em milisegundos*/ 0)
 /*var altura = window.screen.height
 console.log(altura)
 var largura = window.screen.width
