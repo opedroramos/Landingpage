@@ -99,9 +99,9 @@ h3.cor{
     display: none;
 }
 #botao{
-    background-color: #09AD3D;
+    background-color: #ffffff;
     text-decoration: none;
-    color: #ffffff;
+    color: #FA403E;
     padding: 20px 20px;
     font-size: 30px;
     font-family: "M";
@@ -312,7 +312,7 @@ p.vagasl{
     display: none;
 }
 #botao2{
-    background-color: #09AD3D;
+    background-color: #FA403E;
     text-decoration: none;
     color: #ffffff;
     padding: 20px 20px;
@@ -524,9 +524,9 @@ p{
         display: none;
     }
     #botao{
-        background-color: #09AD3D;
+        background-color: #ffffff;
         text-decoration: none;
-        color: #ffffff;
+        color: #FA403E;
         padding: 13.3px;
         font-size: 20px;
         font-family: "M";
@@ -737,7 +737,7 @@ p{
         display: none;
     }
     #botao2{
-        background-color: #09AD3D;
+        background-color: #FA403E;
         text-decoration: none;
         color: #ffffff;
         padding: 13.3px;
