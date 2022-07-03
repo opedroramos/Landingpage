@@ -1,4 +1,4 @@
-setTimeout(
+/*setTimeout(
     function tempo() {
         var elemento = document.getElementById('botaopai')
         var elemento2 = document.getElementById('titlebbpai')
