@@ -1,4 +1,4 @@
-setTimeout(
+/*setTimeout(
     function tempo() {
         var elemento = document.getElementById('botaopai')
         var elemento2 = document.getElementById('titlebbpai')
@@ -24,7 +24,15 @@ setTimeout(
         elemento10.style.display = "flex";
         elemento11.style.display = "flex";
         elemento12.style.display = "flex";
-    }, /*tempo em milisegundos*/ 100)
+    }, /*tempo em milisegundos*/ 
+    setTimeout(
+    function tempo() {
+        var elemento = document.getElementById('botaopai')
+        var elemento2 = document.getElementById('pagamentos')
+        elemento.style.display = "flex";
+        elemento2.style.display = "flex";
+
+    }, /*tempo em milisegundos*/ 5000)
 /*var altura = window.screen.height
 console.log(altura)
 var largura = window.screen.width
