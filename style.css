@@ -382,7 +382,7 @@ p.vagasl2{
     color: #FA403E;
     margin-top: 10px;
     font-size: 18px;
-}
+}*/
 #rodape2{
     display: flex;
     justify-content: center;
@@ -436,7 +436,7 @@ p{
     font-weight: bold;
     font-family: "M";
     color: rgb(255, 255, 255);
-}*/
+}
 @media only screen and (max-width: 768px) {
     #container{
     }
