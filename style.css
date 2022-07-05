@@ -250,7 +250,7 @@ p.vagasl{
     color: #000000;
     font-size: 20px;
 }
-#titleddpai{
+/*#titleddpai{
     display: none;
 }
 .titledd{
@@ -436,7 +436,7 @@ p{
     font-weight: bold;
     font-family: "M";
     color: rgb(255, 255, 255);
-}
+}*/
 @media only screen and (max-width: 768px) {
     #container{
     }
@@ -609,7 +609,7 @@ p{
         font-family: Arial, Helvetica, sans-serif;
         color: #666666;
     }
-    #titlebbpai{
+    /*#titlebbpai{
         display: none;
     }
     .titlebb{
@@ -812,7 +812,7 @@ p{
         color: #FA403E;
         margin-top: 6.6px;
         font-size: 16px;
-    }
+    }*/
     #rodape2{
         display: flex;
         justify-content: center;
