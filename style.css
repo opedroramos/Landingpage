@@ -141,6 +141,7 @@ h3.cor{
     display: none;
 }
 #imgpag{
+    max-width: 500px;
     min-width: 150px;
 }
 #setapai{
@@ -382,6 +383,7 @@ h3.cor{
     display: none;
 }
 #imgpag2{
+    max-width: 500px;
     min-width: 150px;
 }
 #garantia{
@@ -626,6 +628,7 @@ p{
         display: none;
     }
     #imgpag{
+        width: 300px;
         min-width: 150px;
     }
     #setapai{
@@ -867,6 +870,7 @@ p{
         display: none;
     }
     #imgpag2{
+        width: 300px;
         min-width: 150px;
     }
     #garantia{
