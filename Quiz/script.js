@@ -7,7 +7,7 @@
             document.getElementsByClassName('container')[id].style.display = "block";
         }
         //getting final result
-        /*function result() {
+        function result() {
             var score = 0;
             if (document.getElementById('correct1').checked) {
                 score++;
@@ -19,4 +19,4 @@
                 score++;
             }
             alert("your score is: "+ score);
-        }*/
+        }
