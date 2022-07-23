@@ -1,80 +1,102 @@
 *{
-    padding: 0px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 @font-face {
     font-family: 'M';
     src: url('../fonts/Montserrat-VariableFont_wght.ttf');
 }
-#imgpailogo{
+body{
+    background-color: #e2e2e2;
+}
+#container{
+}
+#capapai{
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
-}
-#imgl{
-    width: 340px;
-}
-.containerpai{
-    background-color: #FA403E;
-
-}
-.container {
-    background-color: #FA403E;
-    font-family: "M";
-    color: #ffffff;
+    align-items: center;
     padding: 40px;
-    margin: 0px auto;
-    display: none;
-    box-sizing: border-box;
-    max-width: 800px;
+    gap: 20px;
 }
-.imgpai{
-    display: flex;
-    justify-content: center;
-    margin: 40px;
-}
-.imgq{
-    max-width: 400px;
-    min-width: 200px;
+#capa{
+    width: 176.75px;
     border-radius: 8px;
-    margin: 0px auto;
-    box-shadow: 0px 0px 10px 1px #00000050;
 }
-input[type="radio"]{
-    margin: 8px;
+#nomep{
+    font-size: 24px;
+    color: #000000;
 }
-hr{
-    margin: 20px 0px;
+#bloco{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding: 60px;
+    margin-bottom: 140px;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px 1px #00000060;
 }
-.botaopaii{
+#imgcheck{
     display: flex;
     justify-content: center;
 }
-button.next, .next {
-    background-color: #000000;
-    border-radius: 8px;
+#check{
+    width: 170.6px;
+    margin-bottom: 40px;
+}
+.aprov{
+    font-size: 35px;
     font-family: "M";
-    color: #FAFA57;
-    font-weight: bold;
-    border: none;
-    padding: 20px;
+    color: #25AE88;
+    margin-bottom: 20px;
+}
+#videopai{
+    display: flex;
+    justify-content: center;
+}
+#video{
+    aspect-ratio: calc(16 / 9);
+    width: 1095px;
+}
+.acesso{
+    font-family: "M";
+    font-size: 26px;
+    color: #000000;
     margin: 20px;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-size: 20px;
+    font-weight: 600;
 }
-ul{
-    padding: 10px;
-    box-sizing: border-box;
-}
-li{
-    font-size: 14px;
+.acess{
     font-family: "M";
-    margin: 10px 0px;
-    font-weight: bold;
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 20px;
+    font-weight: 550;
 }
-p#se{
-    color: #FAFA57;
+#botaop{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+}
+.botao{
+    background-color: #25AE88;
+    text-decoration: none;
+    color:#ffffff;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "M";
+    border-radius: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 50%;
+}
+.tambem{
+    font-family: "M";
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 20px;
+    font-weight: 550;
 }
 #rodape3{
     display: flex;
@@ -140,96 +162,101 @@ p.barra{
     font-family: "M";
     color: rgb(255, 255, 255);
 }
-p.ppp{
-    font-size: 24px;
-    color: #FAFA57;
-}
-p.pp{
-    font-size: 14px;
-    color: #000000;
-    margin: 10px 0px;
-}
 p{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     font-family: "M";
     color: rgb(255, 255, 255);
-    margin: 10px 0px;
 }
 @media only screen and (max-width: 768px) {
-    @font-face {
-        font-family: 'M';
-        src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+    #container{
     }
-    #imgpailogo{
+    #capapai{
         display: flex;
         justify-content: center;
+        align-items: center;
+        padding: 26.6px;
+        gap: 13.3px;
+    }
+    #capa{
+        width: 117.83px;
+        border-radius: 8px;
+    }
+    #nomep{
+        font-size: 16px;
+        color: #000000;
+    }
+    #bloco{
+        display: flex;
         background-color: #ffffff;
+        flex-direction: column;
+        padding: 40px;
+        margin-bottom: 93.3px;
+        text-align: center;
+        border-radius: 10.6px;
+        box-shadow: 0px 0px 13.3px 1px #00000060;
     }
-    #imgl{
-        width: 240px;
-    }
-    .containerpai{
-        background-color: #FA403E;
-    
-    }
-    .container {
-        background-color: #FA403E;
-        font-family: "M";
-        color: #ffffff;
-        padding: 20px;
-        margin: 0px auto;
-        display: none;
-        box-sizing: border-box;
-        max-width: 800px;
-    }
-    .imgpai{
-        display: flex;
-        justify-content: center;
-        margin: 40px;
-    }
-    .imgq{
-        max-width: 400px;
-        min-width: 200px;
-        border-radius: 8px;
-        margin: 0px auto;
-        box-shadow: 0px 0px 10px 1px #00000050;
-    }
-    input[type="radio"]{
-        margin-right: 10px;
-    }
-    hr{
-        margin: 20px 0px;
-    }
-    .botaopaii {
+    #imgcheck{
         display: flex;
         justify-content: center;
     }
-    button.next, .next {
-        background-color: #000000;
-        border-radius: 8px;
+    #check{
+        width: 113.73px;
+        margin-bottom: 26.6px;
+    }
+    .aprov{
+        font-size: 23.3px;
         font-family: "M";
-        color: #FAFA57;
-        font-weight: bold;
-        border: none;
-        padding: 20px;
-        margin: 20px;
-        box-sizing: border-box;
+        color: #25AE88;
+        margin-bottom: 13.3px;
+    }
+    #videopai{
+        display: flex;
+        justify-content: center;
+    }
+    #video{
+        aspect-ratio: calc(16 / 9);
+        width: 1095px;
+    }
+    .acesso{
+        font-family: "M";
+        font-size: 17.3px;
+        color: #000000;
+        margin: 13.3px;
+        font-weight: 600;
+    }
+    .acess{
+        font-family: "M";
+        font-size: 13.3px;
+        color: #666666;
+        margin-bottom: 13.3px;
+        font-weight: 550;
+    }
+    #botaop{
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+        text-align: center;
+        width: 100%;
+    }
+    .botao{
+        background-color: #25AE88;
         text-decoration: none;
+        color:#ffffff;
+        padding: 13.3px;
         font-size: 20px;
-    }
-    ul{
-        padding: 10px;
-        box-sizing: border-box;
-    }
-    li{
-        font-size: 14px;
         font-family: "M";
-        margin: 10px 0px;
+        border-radius: 10.6px;
         font-weight: bold;
+        margin-bottom: 13.3px;
+        width: 80%;
     }
-    p#se{
-        color: #FAFA57;
+    .tambem{
+        font-family: "M";
+        font-size: 13.3px;
+        color: #666666;
+        margin-bottom: 13.3px;
+        font-weight: 550;
     }
     #rodape3{
         display: flex;
@@ -295,20 +322,10 @@ p{
         font-family: "M";
         color: rgb(255, 255, 255);
     }
-    p.ppp{
-        font-size: 18px;
-        color: #FAFA57;
-    }
-    p.pp{
-        font-size: 14px;
-        color: #000000;
-        margin: 10px 0px;
-    }
     p{
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bold;
         font-family: "M";
         color: rgb(255, 255, 255);
-        margin: 10px 0px;
     }
 }
