@@ -1,7 +1,7 @@
-function openm(){
+/*function openm(){
     const modal = document.getElementById('paizao')
     modal.style.display="block"
-}
+}*/
 setTimeout(
     function tempo() {
         var elemento = document.querySelector('#botaopai')
