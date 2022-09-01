@@ -8,4 +8,4 @@ setTimeout(
         elemento11.style.display = "flex";
         elemento13.style.display = "flex";
 
-    }, /*tempo em milisegundos*/ 500)
+    }, /*tempo em milisegundos*/ 600000)
