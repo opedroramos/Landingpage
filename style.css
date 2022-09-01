@@ -135,6 +135,55 @@ h3.cor{
     max-width: 500px;
     min-width: 150px;
 }
+#provapai{
+    display: flex;
+    justify-content: initial;
+    max-width: 1100px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    flex-direction: column;
+    padding: 26px;
+    display: none;
+}
+#comentariopai{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: initial;
+    margin: 20px;
+}
+.bloco{
+    display: flex;
+    width: 100%;
+    margin-bottom: 26px;
+    flex-direction: row;
+}
+.imgc{
+    width: 60px;
+    height: 60px;
+}
+.prov{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.nome{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #365899;
+}
+.comentario{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: initial;
+    margin: 6px 0px;
+}
+.like{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}
 #rodape3{
     display: flex;
     justify-content: center;
@@ -330,6 +379,55 @@ p{
     #imgpag{
         width: 300px;
         min-width: 150px;
+    }
+    #provapai{
+        display: flex;
+        justify-content: initial;
+        max-width: 1100px;
+        background-color: #ffffff;
+        margin: 0px auto;
+        flex-direction: column;
+        padding: 17.3px;
+        display: none;
+    }
+    #comentariopai{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000;
+        font-weight: initial;
+        margin: 13.3px;
+    }
+    .bloco{
+        display: flex;
+        width: 100%;
+        margin-bottom: 17.3px;
+        flex-direction: row;
+    }
+    .imgc{
+        width: 40px;
+        height: 40px;
+    }
+    .prov{
+        display: flex;
+        flex-direction: column;
+        margin-left: 13.3px;
+    }
+    .nome{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #365899;
+    }
+    .comentario{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000;
+        font-weight: initial;
+        margin: 4px 0px;
+    }
+    .like{
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #666666;
     }
     #rodape3{
         display: flex;
