@@ -95,7 +95,7 @@ h3.backg{
     display: none;
 }
 #botao{
-    background-color: rgb(0, 255, 21);
+    background-color: #00DD00;
     text-decoration: none;
     color: #ffffff;
     padding: 20px 20px;
@@ -125,7 +125,7 @@ h3.backg{
 #vvvv{
     font-size: 24px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: 600;
 }
 #pagamentos{
@@ -349,7 +349,7 @@ p{
         display: none;
     }
     #botao{
-        background-color: rgb(0, 255, 21);
+        background-color: #00DD00;
         text-decoration: none;
         color: #ffffff;
         padding: 13.3px;
@@ -378,7 +378,7 @@ p{
     #vvvv{
         font-size: 16px;
         text-align: center;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         font-weight: 600;
     }
     #pagamentos{
