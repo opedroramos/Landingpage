@@ -31,6 +31,7 @@ setTimeout(
         elemento11.style.display = "flex";
         //elemento12.style.display = "flex";
         elemento13.style.display = "flex";
+<<<<<<< HEAD
         elemento14.style.display = "flex";
         elemento15.style.display = "flex";
         elemento16.style.display = "flex";
@@ -38,3 +39,9 @@ setTimeout(
         //elemento18.style.display = "flex";
         elemento19.style.display = "block";
     }, /*tempo em milisegundos*/ 540000)
+=======
+        elemento18.style.display = "flex";
+
+
+    }, /*tempo em milisegundos*/ 54000)
+>>>>>>> 069cfd9833e0b7b0d7ff6a05702edff166f79e69
