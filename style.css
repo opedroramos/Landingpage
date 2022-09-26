@@ -56,11 +56,6 @@ h3.cor{
     font-size: 40px;
     font-family: "M";
 }
-h3.backg{
-    background-color: #fff000;
-    max-width: 600px;
-    margin: 0px auto;
-}
 .wistia_responsive_padding{
     display: flex; 
     justify-content: center;
@@ -165,6 +160,7 @@ h3.backg{
 .imgc{
     width: 60px;
     height: 60px;
+    border-radius: 60px;
 }
 .prov{
     display: flex;
@@ -310,11 +306,6 @@ p{
         font-size: 20px;
         font-family: "M";
     }
-    h3.backg{
-        background-color: #fff000;
-        max-width: 600px;
-        margin: 0px auto;
-    }
     .wistia_responsive_padding{
         display: flex; 
         justify-content: center;
@@ -418,6 +409,7 @@ p{
     .imgc{
         width: 40px;
         height: 40px;
+        border-radius: 40px;
     }
     .prov{
         display: flex;
