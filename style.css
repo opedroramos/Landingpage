@@ -40,7 +40,7 @@ p.videod{
     width: 440px;
 }*/
 #h3pai{
-    padding: 20px;
+    padding: 40px;
 }
 h3{
     text-align: center;
@@ -260,7 +260,7 @@ p{
         display: flex;
     }
     p.videod{
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bold;
         font-family: "M";
         color: rgb(255, 255, 255);
