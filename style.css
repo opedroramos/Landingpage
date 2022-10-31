@@ -56,13 +56,25 @@ h3.cor{
     font-size: 40px;
     font-family: "M";
 }
-.wistia_responsive_padding{
-    display: flex; 
+#objeções{
+    display: flex;
     justify-content: center;
+    gap: 20px;
+    margin: 20px;
+    display: none;
 }
-.wistia_responsive_wrapper{
-    width: 60%;
-    height: 60%;
+.ob{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.imgob{
+    width: 50px;
+}
+p.obb{
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
 }
 #botaopai{
     display: flex;
@@ -80,7 +92,7 @@ h3.cor{
     font-family: "M";
     border-radius: 16px;
     font-weight: bold;
-    margin: 60px auto;
+    margin: 30px auto;
     animation: pulsee 1s infinite;
     animation-name: pulsee;
     cursor: pointer;
@@ -290,13 +302,25 @@ p{
         font-size: 20px;
         font-family: "M";
     }
-    .wistia_responsive_padding{
-        display: flex; 
+    #objeções{
+        display: flex;
         justify-content: center;
+        gap: 13.3px;
+        margin: 13.3px;
+        display: none;
     }
-    .wistia_responsive_wrapper{
-        width: 100%;
-        height: 100%;
+    .ob{
+        display: flex;
+        align-items: center;
+        gap: 6.6px;
+    }
+    .imgob{
+        width: 32px;
+    }
+    p.obb{
+        color: #000000;
+        font-weight: bold;
+        font-size: 14px;
     }
     #botaopai{
         display: flex;
@@ -314,7 +338,7 @@ p{
         font-family: "M";
         border-radius: 10.6px;
         font-weight: bold;
-        margin: 30px auto;
+        margin: 20px auto;
         width: 80%;
         animation: pulsee 1s infinite;
         animation-name: pulsee;
