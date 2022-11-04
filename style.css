@@ -14,7 +14,7 @@ body{
 #disppai{
     display: flex;
     justify-content: center;
-    background-color: #000000;
+    background-color: #0401ff;
     flex-direction: row;
     padding: 20px;
     margin-bottom: 20px;
@@ -48,10 +48,11 @@ h3{
     font-weight: bold;
     font-size: 40px;
     font-family: "M";
+    background-color: #fff000;
 }
 h3.cor{
     text-align: center;
-    color: #1084E7;
+    color: #ff0000;;
     font-weight: bold;
     font-size: 40px;
     font-family: "M";
@@ -75,6 +76,16 @@ p.obb{
     color: #000000;
     font-weight: bold;
     font-size: 20px;
+}
+#preço{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+p#preç{
+    font-size: 28px;
+    color: #00dd00;
+
 }
 #botaopai{
     display: flex;
@@ -294,7 +305,7 @@ p{
     #disppai{
         display: flex;
         justify-content: center;
-        background-color: #000000;
+        background-color: #0401ff;
         flex-direction: row;
         padding: 13.3px;
         margin-bottom: 13.3px;
@@ -328,11 +339,12 @@ p{
         font-weight: bold;
         font-size: 20px;
         font-family: "M";
+        background-color: #fff000;
     
     }
     h3.cor{
         text-align: center;
-        color: #1084E7;
+        color: #ff0000;
         font-weight: bold;
         font-size: 20px;
         font-family: "M";
@@ -356,6 +368,16 @@ p{
         color: #000000;
         font-weight: bold;
         font-size: 14px;
+    }
+    #preço{
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+    p#preç{
+        font-size: 20px;
+        color: #00dd00;
+    
     }
     #botaopai{
         display: flex;

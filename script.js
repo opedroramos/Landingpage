@@ -4,6 +4,7 @@ setTimeout(
         var elemento11 = document.querySelector('#pagamentos')
         var elemento13 = document.querySelector('#vagas')
         var elemento20 = document.querySelector('#objeções')
+        var elemento21 = document.querySelector('#preço')
         //var elemento18 = document.querySelector('#provapai')
 
 
@@ -11,6 +12,7 @@ setTimeout(
         elemento11.style.display = "flex";
         elemento13.style.display = "flex";
         elemento20.style.display = "flex"
+        elemento21.style.display = "flex"
         //elemento18.style.display = "flex";
 
 
