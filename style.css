@@ -14,7 +14,7 @@ body{
 #disppai{
     display: flex;
     justify-content: center;
-    background-color: #0401ff;
+    background-color: #15ACB9;
     flex-direction: row;
     padding: 20px;
     margin-bottom: 20px;
@@ -51,7 +51,7 @@ h3{
 }
 h3.cor{
     text-align: center;
-    color: #ff0000;;
+    color: #0A3757;
     font-weight: bold;
     font-size: 40px;
     font-family: "M";
@@ -69,7 +69,7 @@ h3.cor{
     gap: 10px;
 }
 .imgob{
-    width: 50px;
+    width: 3vw;
 }
 p.obb{
     color: #000000;
@@ -304,7 +304,7 @@ p{
     #disppai{
         display: flex;
         justify-content: center;
-        background-color: #0401ff;
+        background-color: #15ACB9;
         flex-direction: row;
         padding: 13.3px;
         margin-bottom: 13.3px;
@@ -341,7 +341,7 @@ p{
     }
     h3.cor{
         text-align: center;
-        color: #ff0000;
+        color: #0A3757;
         font-weight: bold;
         font-size: 20px;
         font-family: "M";
@@ -359,7 +359,7 @@ p{
         gap: 6.6px;
     }
     .imgob{
-        width: 32px;
+        width: 6vw;
     }
     p.obb{
         color: #000000;

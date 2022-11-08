@@ -16,4 +16,4 @@ setTimeout(
         //elemento18.style.display = "flex";
 
 
-    }, /*tempo em milisegundos*/ 1380000)
+    }, /*tempo em milisegundos*/ 2160000)
