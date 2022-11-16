@@ -26,6 +26,15 @@ body{
     color: rgb(255, 255, 255);
     display: flex;
 }
+#confpai{
+    max-width: 800px;
+    margin: 0px auto;
+}
+#conf{
+    display: block;
+    margin: 0px auto;
+    max-width: 50%;
+}
 p.videod{
     font-size: 20px;
     font-weight: bold;
@@ -123,6 +132,17 @@ p#preç{
         transform: scale(1.00);
     }
 }
+#addcarrinho{
+    text-align: center;
+    margin-bottom: 40px;
+    display: none;
+}
+#addc{
+    font-family: "M";
+    font-size: 30px;
+    font-weight: bolder;
+    color: #000000;
+}
 #vagas{
     display: flex;
     justify-content: center;
@@ -131,7 +151,7 @@ p#preç{
 #vvvv{
     font-size: 24px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: #3D3D3D;
     font-weight: 600;
 }
 #pagamentos{
@@ -323,6 +343,15 @@ p{
         color: rgb(255, 255, 255);
         display: flex;
     }
+    #confpai{
+        max-width: 800px;
+        margin: 0px auto;
+    }
+    #conf{
+        display: block;
+        margin: 0px auto;
+        max-width: 40%;
+    }
     p.videod{
         font-size: 14px;
         font-weight: bold;
@@ -402,7 +431,7 @@ p{
         text-decoration: none;
         color: #ffffff;
         padding: 13.3px;
-        font-size: 16px;
+        font-size: 18px;
         font-family: "M";
         border-radius: 10.6px;
         font-weight: bold;
@@ -419,6 +448,17 @@ p{
             transform: scale(1.00);
         }
     }
+    #addcarrinho{
+        text-align: center;
+        margin-bottom: 20px;
+        display: none;
+    }
+    #addc{
+        font-family: "M";
+        font-size: 18px;
+        font-weight: bolder;
+        color: #000000;
+    }
     #vagas{
         display: flex;
         justify-content: center;
@@ -427,7 +467,7 @@ p{
     #vvvv{
         font-size: 16px;
         text-align: center;
-        color: rgb(0, 0, 0);
+        color: #3D3D3D;
         font-weight: 600;
     }
     #pagamentos{
