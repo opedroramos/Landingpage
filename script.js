@@ -1,7 +1,7 @@
 setTimeout(
     function tempo() {
         var elemento = document.querySelector('#botaopai')
-        var elemento11 = document.querySelector('#pagamentos')
+        //var elemento11 = document.querySelector('#pagamentos')
         var elemento13 = document.querySelector('#vagas')
         var elemento20 = document.querySelector('#objeções')
         var elemento21 = document.querySelector('#preço')
@@ -10,7 +10,7 @@ setTimeout(
 
 
         elemento.style.display = "flex";
-        elemento11.style.display = "flex";
+        //elemento11.style.display = "flex";
         elemento13.style.display = "flex";
         elemento20.style.display = "flex"
         elemento21.style.display = "flex"
