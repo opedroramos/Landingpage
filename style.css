@@ -57,15 +57,16 @@ h3{
     text-align: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: 22px;
+    font-size: 30px;
     font-family: "M";
 }
 h3.cor{
     text-align: center;
-    color: #0069DE;
+    color: #000000;
     font-weight: bold;
     font-size: 22px;
     font-family: "M";
+    margin-top: 22px;
 }
 #imgnoticia{
 }
@@ -269,6 +270,36 @@ li.pref{
     margin: 30px auto;
     font-family: "M";
 }
+#biografia{
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    gap: 20px;
+}
+#agruparbiog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#nomebiog{
+    font-size: 18px;
+    color: #000000;
+}
+#profissão{
+    font-size: 16px;
+    color: #666666;
+}
+#imgbiog{
+    display: block;
+    max-width: 100%;
+}
+p#biog{
+    font-size: 16px;
+    color: #000000;
+}
 #rodape3{
     display: flex;
     justify-content: center;
@@ -389,15 +420,16 @@ p{
         text-align: center;
         color: rgb(0, 0, 0);
         font-weight: bold;
-        font-size: 16px;
+        font-size: 18px;
         font-family: "M";    
     }
     h3.cor{
         text-align: center;
-        color: #0069DE;
+        color: #000000;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 18px;
         font-family: "M";
+        margin-top: 16px;
     }
     #imgnoticia{
     }
@@ -598,6 +630,37 @@ p{
         font-weight: initial;
         margin: 20px auto;
         font-family: "M";
+    }
+    #biografia{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 40px;
+        gap: 20px;
+    }
+    #agruparbiog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    #nomebiog{
+        font-size: 18px;
+        color: #000000;
+    }
+    #profissão{
+        font-size: 16px;
+        color: #666666;
+    }
+    #imgbiog{
+        display: block;
+        max-width: 100%;
+    }
+    p#biog{
+        font-size: 16px;
+        color: #000000;
     }
     #rodape3{
         display: flex;
