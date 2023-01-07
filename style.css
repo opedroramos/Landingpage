@@ -57,16 +57,19 @@ h3{
     text-align: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: 30px;
+    font-size: 22px;
     font-family: "M";
 }
 h3.cor{
     text-align: center;
-    color: #000000;
+    color: #C4170C;
     font-weight: bold;
     font-size: 22px;
     font-family: "M";
-    margin-top: 22px;
+}
+mark.corr{
+    color: #C4170C;
+    background-color: #ffffff00;
 }
 #imgnoticia{
 }
@@ -94,17 +97,6 @@ p.obb{
     color: #000000;
     font-weight: bold;
     font-size: 20px;
-}
-#preço{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    display: none;
-}
-p#preç{
-    font-size: 28px;
-    color: #000000;
-
 }
 #botaopai{
     display: flex;
@@ -157,6 +149,36 @@ p#preç{
     text-align: center;
     color: #3D3D3D;
     font-weight: 600;
+}
+#pitchhh{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#preço{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p#preç{
+    font-size: 28px;
+    color: #ff0000;
+}
+#pre{
+    font-size: 28px;
+    color: #00DD00;
+    margin: 12px;
+}
+#imgpitch{
+    display: block;
+}
+#imgp{
+    transform: rotate(90grad);
+    max-width: 100%;
 }
 #pagamentos{
     display: flex;
@@ -308,6 +330,7 @@ p#biog{
     padding: 30px;
     flex-direction: column;
     background-color: #3D3D3D;
+    margin-top: 100px;
 }
 #logor{
     width: 240px;
@@ -421,7 +444,7 @@ p{
         text-align: center;
         color: rgb(0, 0, 0);
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
         font-family: "M";    
     }
     h3.cor{
@@ -431,6 +454,10 @@ p{
         font-size: 18px;
         font-family: "M";
         margin-top: 16px;
+    }
+    mark.corr{
+        color: #C4170C;
+        background-color: #ffffff00;
     }
     #imgnoticia{
     }
@@ -458,17 +485,6 @@ p{
         color: #000000;
         font-weight: bold;
         font-size: 14px;
-    }
-    #preço{
-        margin-top: 15px;
-        display: flex;
-        justify-content: center;
-        display: none;
-    }
-    p#preç{
-        font-size: 20px;
-        color: #000000;
-    
     }
     #botaopai{
         display: flex;
@@ -521,6 +537,36 @@ p{
         text-align: center;
         color: #3D3D3D;
         font-weight: 600;
+    }
+    #pitchhh{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    #preço{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    p#preç{
+        font-size: 20px;
+        color: #ff0000;
+    }
+    #pre{
+        font-size: 20px;
+        color: #00DD00;
+        margin: 6px;
+    }
+    #imgpitch{
+        display: block;
+    }
+    #imgp{
+        transform: rotate(90grad);
+        max-width: 100%;
     }
     #pagamentos{
         display: flex;
@@ -672,6 +718,7 @@ p{
         padding: 20px;
         flex-direction: column;
         background-color: #3D3D3D;
+        margin-top: 100px;
     }
     #logor{
         width: 240px;
